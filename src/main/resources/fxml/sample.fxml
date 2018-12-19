@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="622.0" prefWidth="896.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutY="-1.0" prefHeight="82.0" prefWidth="896.0" style="-fx-background-color: #00bfff;" text="                             五行Java登陆界面" textFill="#000000b5">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <TextField layoutX="294.0" layoutY="231.0" prefHeight="35.0" prefWidth="288.0" />
+      <TextField layoutX="294.0" layoutY="324.0" prefHeight="35.0" prefWidth="288.0" />
+      <Label layoutX="236.0" layoutY="239.0" text="账号：" />
+      <Label layoutX="236.0" layoutY="332.0" text="密码：" />
+      <Label layoutX="7.0" layoutY="102.0" prefHeight="28.0" prefWidth="335.0" text="请输入账号和密码" textFill="#00000089">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="777.0" layoutY="537.0" prefHeight="28.0" prefWidth="105.0" text="登录不成功" textFill="#d00909" />
+      <Label layoutX="777.0" layoutY="565.0" prefHeight="20.0" prefWidth="89.0" text="请联系我们" textFill="#d00909" />
+      <Button layoutX="326.0" layoutY="408.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="70.0" style="-fx-background-color: #00bfff;" text="登录" />
+      <Button layoutX="484.0" layoutY="408.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="70.0" style="-fx-background-color: #00bfff;" text="取消" />
+      <Label layoutX="396.0" layoutY="470.0" prefHeight="28.0" prefWidth="105.0" text="忘记密码？" textFill="#00000081" />
+   </children>
+</AnchorPane>
